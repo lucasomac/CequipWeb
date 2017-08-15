@@ -33,17 +33,17 @@
     <body>
         <h3 align="center">CONTROLE DE EQUIPAMENTOS DO SERGIPE PREVIDÊNCIA</h3>
         <!--<h2 align="center" >Cadastro Setor</h2>-->
-        <form role="form" method="post" action="Logar" onSubmit="return Validate()">
+        <form role="form" method="post" action="Logar" onsubmit="return Validate()">
             <div class="form-group" align="center">
                 <label for="login">Login:</label>
-                <input type="text" name="login" id="login" maxlength="10" value="" class="form-control" width="1">
+                <input type="text" name="login" id="login" maxlength="10" value="" class="form-control" >
             </div>
             <div class="form-group" align="center">
                 <label for="senha">Descrição</label>
                 <input type="password" name="senha" id="senha" maxlength="20" value="" class="form-control">
             </div>
             <div align="center">
-                <button type="submit" name="Salvar" id="Entrar" class="btn btn-success">Salvar</button>
+                <button type="submit" name="Salvar" id="Entrar" class="btn btn-success">Entrar</button>
                 <button type="reset" name="Limpar" id="Limpar" class="btn btn-danger">Limpar</button>
             </div>
         </form>    

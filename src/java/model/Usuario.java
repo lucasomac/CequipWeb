@@ -47,6 +47,11 @@ public class Usuario {
         return senha;
     }
 
+    @Override
+    public String toString() {
+        return "Usuario{" + "login=" + login + ", nome=" + nome + ", senha=" + senha + '}';
+    }
+
     public void setSenha(String senha) {
         this.senha = senha;
     }
